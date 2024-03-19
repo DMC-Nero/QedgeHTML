@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+p {
+    display: none;
+    background-color: rgb(80, 159, 255);
+    padding: 20px;
+}
+h1 {
+    background-color: red;
+    padding: 20px;
+}
+div:hover p{
+    display:block;
+}
+
+div {
+    background-color: rgb(112, 10, 93);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+p:first-child {
+    color:blue
+}
+
+        /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(19, 234, 238, 0.676);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(134, 234, 27);
+  font-size: 30px;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+    </style>
+</head>
+<body>
+
+<div>
+<p><b><a href="combinators.html" target="_blank">This is a link</a></b></p>
+</div>
+
+<div>Hover over this div element to show the p element
+    <p>This is some text.</p>
+    <p>This is some text.</p> 
+    <p>Tada! Here I am!</p>
+</div>
+
+<h1>welcome</h1>
+</body>
+</html>
